@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Arsenal SC";
 }
 /*----------------------------------*/
 /*--------------HEADER-------------*/
@@ -14,7 +15,6 @@
 .header-section h1{
     color: whitesmoke;
     text-align: center;
-    font-family: "Arsenal SC";
     font-size: 5rem;
 }
 .header-section nav{
@@ -37,7 +37,6 @@
     text-decoration: none;
     font-weight: bold;
     color: whitesmoke;
-    font-family: "Arsenal SC";
 
 }
 .header-section a:hover{
@@ -60,6 +59,12 @@
     border: 0.2rem solid silver;
 }
 .main-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.row-div{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -97,6 +102,7 @@
 .card{
     border: 0.15rem solid;
     background-color: powderblue;
+    display: flex;
 }
 .card h4{
     background-color: slategray;
@@ -106,8 +112,9 @@
     margin: 0.2rem;
 }
 .card img{
-    width: 20rem;
-    height: auto;
+    width: auto;
+    height: 20rem;
+    border-inline-end: 0.15rem solid;
 }
 /*--------------HABILIDADES-------------*/
 #habilidades{
@@ -128,13 +135,17 @@
     flex-direction: column;
     gap: 0.2rem;
 }
+.contact-form button{
+    margin: 1rem 0.2rem;
+    width: 5rem;
+}
 #contacto{
     flex: 1 2 auto;
 }
 /*--------------PELÍCULAS-------------*/
 .card img{
     width: auto;
-    height: 15rem;
+    height: 20rem;
 }
 /*----------------------------------*/
 /*--------------FOOTER-------------*/

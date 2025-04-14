@@ -17,8 +17,8 @@ Practica formativia para la materia de *Desarrollo de Sistemas Web (Front-End)* 
 * **Uso de Google Fonts:**
   * [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
   * [x] La tipografía importada se aplica en el sitio.
-  * [ ] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?  
-Respuesta: __________________________________________________________
+  * [x] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?  
+Respuesta: Por que es minimalista, sobria y con líneas claras. Tiene proporciones equilibradas, lo que la hace muy legible incluso en tamaños pequeños.  
 * **HTML:** 
   * [x] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
   * [x] Se han incluido las metaetiquetas obligatorias: charset y viewport.
@@ -30,20 +30,20 @@ Respuesta: __________________________________________________________
 * **CSS:**
   * [x] Existe el archivo "styles.css" con estilos personalizados.
   * [x] Se utilizan selectores basados en clases e identifi cadores.
-  * [ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.  
+  * [x] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.  
 * **Layout y Organización:**
   * [x] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.
-  * [ ] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?  
-Respuesta: ________________________________________________________  
+  * [x] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?  
+Respuesta: Ayuda a una mejor organizacion del contenido de la página.  
 * **Estilización de Componentes:**
   * [ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
   * [x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
-  * [ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
+  * [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
   * [ ] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto?  
-Respuesta: ________________________________________________________
+Respuesta: ________________________________________________________  
 * **Consideraciones Adicionales:**
   * [ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
-  * [ ] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
+  * [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
   * [ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
 
 
