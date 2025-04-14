@@ -1,10 +1,144 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----------------------------------*/
+/*--------------HEADER-------------*/
+/*--------------------------------*/
+.header-section{
+    background-color: steelblue;
+    padding-block-start: 1rem;
+}
+.header-section h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Arsenal SC";
+    font-size: 5rem;
+}
+.header-section nav{
+    background-color: slategrey;
+    padding: 0.1vh;
+    margin-top: 1rem;
+}
+.header-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: initial;
+    padding: 0;
+    margin: 0;
+}
+.header-section a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Arsenal SC";
+
+}
+.header-section a:hover{
+    background-color: white;
+    color: black;
+}
+/*--------------------------------*/
+/*--------------MAIN-------------*/
+/*------------------------------*/
+.main-section main{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+.main-section section{
+    border: 0.2rem solid silver;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.main-div section{
+    flex: 1;
+}
+.inside-section-div{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.main-section h3{
+    color: whitesmoke;
+    background-color: steelblue;
+}
+/*--------------SOBRE MÍ-------------*/
+#sobre-mi{
+    flex: 1 1;
+    background-color: slategray;
+}
+#sobre-mi p{
+    color: whitesmoke;
+    font: 1.5rem sans-serif;
+}
 #pfp{
-    width: 15em;
+    width: 15rem;
     height: auto;
 }
-
-.movie img{
-    width: 10em;
+/*--------------TARJETAS-------------*/
+#tarjetas{
+    flex: 0 0 auto;
+}
+.card{
+    border: 0.15rem solid;
+    background-color: powderblue;
+}
+.card h4{
+    background-color: slategray;
+    color: whitesmoke;
+}
+.card p{
+    margin: 0.2rem;
+}
+.card img{
+    width: 20rem;
     height: auto;
+}
+/*--------------HABILIDADES-------------*/
+#habilidades{
+    flex: 2;
+}
+#habilidades li{
+    padding: 0.1rem;
+    margin: 0.1rem;
+    border: 0.2rem solid steelblue;
+    border-radius: 10%;
+    background-color: slategray;
+    color: whitesmoke;
+    text-align: center;
+}
+/*--------------CONTACTO-------------*/
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+#contacto{
+    flex: 1 2 auto;
+}
+/*--------------PELÍCULAS-------------*/
+.card img{
+    width: auto;
+    height: 15rem;
+}
+/*----------------------------------*/
+/*--------------FOOTER-------------*/
+/*--------------------------------*/
+.footer-section{
+    background-color: lightsteelblue;
 }
